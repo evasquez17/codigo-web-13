@@ -1,17 +1,107 @@
+body {
+  font-family: helvetica;
+}
+
 h1 {
-    background-color:black;
+  background-color: black;
   color: red;
 }
 
 h2 {
-    color: green;
-}    
+  background-color: aqua;
+  color: green;
+}
 
 p {
-    color: blue;
+  /*  background-color: yellow; */
+  color: #0000ff;
 }
 
-a{
-    color: pink;
-    background-color:yellowgreen
+a {
+  background-color: yellowgreen;
+  color: pink;
 }
+
+/*La forma correcta en la cual enlazamos
+un ID en css es usando el # */
+#contenedor-uno {
+  background-color: rgb(17, 128, 219);
+}
+
+#contenedor-dos {
+  background-color: #eed80f;
+}
+
+/*Para poder compartir estilos 
+debemos usar clases "clases"*/
+
+/*Para poder acceder a un elementos
+que tiene un class, usamos el . */
+.contenedor-principal {
+  background-color: violet;
+  padding: 30px;
+}
+
+.btn-ingresar {
+  background-color: rgb(17, 128, 219);
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-registro {
+  font-size: 25px;
+}
+
+.contenedor-form {
+  border: 3px solid rgb(206, 99, 12);
+  border-radius: 8px;
+}
+
+.contenedor-interno-form {
+  padding: 20px;
+  text-align: center; /* Centrar el formulario */
+}
+
+.titulo-form {
+  color: rgba(12, 113, 180, 0.788);
+  background-color: #ffffff;
+}
+
+/* CSS para los textbox */
+.input-form {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px rgb(91, 138, 226) solid;
+  width: 400px;
+}
+
+.input-codigo {
+  width: 100px;
+}
+
+.input-numero {
+  width: 275px;
+}
+
+.btn-Usuario {
+  background-color: rgb(17, 128, 219);
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 210px;
+}
+
+/* los elementos tienen propiedades
+internas por ejemplo HOVER */
+
+.btn-ingresar:hover{
+  background-color:rgb(13, 196, 110);
+  color: rgb(0, 0, 0);
+  /* quitar el subrayado */
+  text-decoration: none;
+  padding: 50px;
+}
+
