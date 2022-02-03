@@ -18,24 +18,105 @@
   <meta name="twitter:description" content="Esta pagina en donde estoy aprendiendo HTML">
   <meta name="image"
     content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx9k7M6EeOLOdYegOpm8TwQTic4V4cOVSyxQ&usqp=CAU">
-
-
 </head>
 
+
+<!-- vincular styles.css con html -->
+<link rel="stylesheet" href="./css/styles.css">
+
+<!-- Esta etiqueta nos permite CSS dentro de un html -->
+<!-- <style>
+  body{
+    font-family: helvetica;
+  }
+
+h1{
+  text-decoration: underline;
+}  
+</style> -->
+
+
+
 <body>
-  <h1>Inputs</h1>
+  <!-- se agrega al h1 estilo, color y mayuscula -->
+  <!-- <h1 style="color: red; text-transform: uppercase;" >Inputs</h1> -->
 
-  <a href="./semana1/inputs.html">Link de inputs</a>
+  <div class="contenedor-principal">
+    <h1>Mi Portafolio</h1>
+    <p>
+      Hola mi nombre es Evert Vásquez, soy Ing. en Industrias alimentarias. En este BootCamp estoy aprendiendo HTML, CSS y
+      JS
+    </p>
+    <img src="./img/fotoPerfil.jpg" 
+    class="imagen-perfil"
+    alt="" 
+    width="200"
+    height="205"
+    >
+
+    <p>
+      <a class="btn-github" href="http://github.com/evasquez17"> 
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" 
+        alt=""
+        width="20"
+        >
+        GitHub</a>  
+    </p>
+    
+  </div>
+
+  <!-- Lista en HTML -->
+  <!-- esta lista es ordenada usando ol, con numeracion-->
+  <ol>
+    <!-- li es un elemento de una lista -->
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+  </ol>
 
 
-  <h1>Formularios</h1>
-  <a href="./semana1/form.html">Link a formularios</a>
+  <!-- lista no ordenada, con viñetas -->
+  <ul>
+    <li>
+      <h5>Semana 1</h5>
+      <img
+      src="https://cdn-icons-png.flaticon.com/512/235/235251.png" 
+      alt="semana1" 
+      width="100"
+      >
+    </li>
+    <li>
+      <h5>Semana 2</h5>
+      <img
+      src="https://cdn-icons-png.flaticon.com/512/235/235251.png"
+      alt="semana2"
+      width="100"
+      >
+    </li>
+  </ul>
 
-  <h1>Tablas</h1>
-  <a href="./semana1/tablas.html">Link a Tablas</a>
+<div>
+  <h3>Temas semana 1</h3>
+  <a class="link-referencia" href="./semana1/inputs.html"
+  >Link de inputs</a>
+  <a class="link-referencia" href="./semana1/form.html"
+  >Link a formularios</a>
+  <a class="link-referencia" href="./semana1/tablas.html"
+  >Link a Tablas</a>
+  <a class="link-referencia" href="./semana1/ajedrez.html"
+  >Link al ajedrez</a>
+</div>
 
-  <h1>Tabla de Ajedrez</h1>
-  <a href="./semana1/ajedrez.html">Link al ajedrez</a>
+<div>
+  <h3>Temas semana 2</h3>
+  <a class="link-referencia" href="./semana2/index.html">Introducción a CSS</a>
+</div>
+
+
+  
+
+  <!-- <h1>Tabla de Ajedrez</h1> -->
+  
 
   <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto repellat
