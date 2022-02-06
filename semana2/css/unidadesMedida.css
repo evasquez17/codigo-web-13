@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+}
+
+.banner {
+  background-color: rgb(187, 110, 10);
+  height: 40vh; /* view port height 
+  (toma como referencia a nuestra pantallas
+  se usa para anunciar un producto */
+  /* TODO: para ancho siempre usar % */
+  width: 40%; 
+}
+
+.titulo {
+  font-size: 3em;
+  color: rebeccapurple;
+}
+
+.parrafo {
+  font-size: 50px;
+}
+
+.banner-medio {
+  height: 20vh;
+  background-color: rgb(154, 22, 108);
+  width: 60%;
+}
+
+.banner-dos {
+  background-color: green;
+  height: 40vh;
+  width: 75%;
+}
+
+.banner-tres {
+  background-color: rgb(238, 223, 9);
+  height: 300vh;
+  width: 100%;
+}
+
+.banner-cuartro{
+  background-color: rebeccapurple;
+  height: 40vh;
+  /* TODO: el tamaño minimo de este banner
+   sera el 50% */
+  min-width: 50%;
+  max-width: 80%;
+}
+
+.banner-cinco{
+  width: 300px;
+  height: 300px;
+  border: 12px solid #f01;
+}

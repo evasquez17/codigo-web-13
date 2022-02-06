@@ -1,0 +1,50 @@
+/* EL * indica todo, nivel mas arriba que el body */
+/* quita todo el espacio a toda la pagina */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial;
+}
+
+/* selector de descendiente */
+.contenedor p {
+  color: #f01;
+}
+
+.contenedor-dos h2 {
+  color: rgb(109, 153, 6);
+}
+
+.contenedor-tres a img {
+  border: 2px solid rgb(10, 43, 161);
+  border-radius: 8px;
+}
+
+.menu-navegacion {
+  margin: 20px;
+}
+
+/* Primera forma de usar lista con ul */
+/* ul > li {
+    border: 2px solid rgb(10, 83, 167)
+} */
+
+.link-navegacion {
+  border: 2px solid rgb(11, 117, 99);
+}
+
+/* Poner input con color */
+input[type="email"] {
+  background-color: brown;
+}
+
+input[type="text"] {
+  color: rgb(13, 152, 27);
+}
+
+input[type="pasword"] {
+  color: rgb(7, 190, 62);
+}

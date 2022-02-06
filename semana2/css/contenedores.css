@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedor-uno {
+  height: 30vh;
+  background-color: hsl(150, 93%, 38%);
+}
+
+.contenedor-form {
+  border: 3px solid #000;
+  height: 100vh;
+  background-color: rgb(232, 232, 65);
+}
+
+input {
+  /* display: block ==>Convierte los textbox en bloque */
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #0b4c97;
+}
+
+article {
+  height: 40vh;
+  /* rgba (a, es alfa) */
+  background-color: rgba(123, 234, 133, 0.3);
+}
